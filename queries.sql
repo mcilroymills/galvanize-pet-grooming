@@ -4,5 +4,5 @@
 
 -- List _every_ dog's name and any appointment dates they have.
 
--- List every breed that Martha has groomed.
+-- List every breed that Martha has groomed. No breed should repeat.
 

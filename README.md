@@ -10,7 +10,7 @@ Create queries for each of the questions listed below and put them in `queries.s
 
 1. List _every_ dog's name and any appointment dates they have.
 
-1. List every breed that Martha has groomed.
+1. List every breed that Martha has groomed. No breed should repeat.
 
 ## Schema
 
