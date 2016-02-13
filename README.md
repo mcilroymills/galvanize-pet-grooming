@@ -18,35 +18,35 @@ Create queries for each of the questions listed below and put them in `queries.s
 
 ## Data
 
-| Customer |
-| --- | --- | --- |
+### Customer
 | id | first_name | last_name |
+| --- | --- | --- |
 | 1 | Kyle | Coberly |
 | 2 | Danny | Fritz |
 | 3 | CJ | Reynolds |
 | 4 | Roberto | Ortega |
 
-| Dog |
-| --- | --- | --- | --- |
+### Dog
 | id | customer_id | name |
+| --- | --- | --- | --- |
 | 1 | 1 | Bixby |
 | 2 | 1 | Mesa |
 | 3 | 2 | Trixy |
 | 4 | 3 | Penelope |
 | 5 | 4 | Iago |
 
-| Breed |
-| --- | --- |
+### Breed
 | id | name |
+| --- | --- |
 | 1 | Chow Chow |
 | 2 | German Shepherd |
 | 3 | Jack Russell Terrier |
 | 4 | Black Lab |
 | 5 | Cat |
 
-| DogBreed |
-| --- | --- | --- |
+### DogBreed
 | id | dog_id | breed_id |
+| --- | --- | --- |
 | 1 | 1 | 1 |
 | 2 | 1 | 2 |
 | 3 | 2 | 3 |
@@ -55,9 +55,9 @@ Create queries for each of the questions listed below and put them in `queries.s
 | 6 | 5 | 4 |
 | 7 | 5 | 5 |
 
-| Appointment |
-| --- | --- | --- | --- |
+### Appointment
 | id | dog_id | date | groomer_name |
+| --- | --- | --- | --- |
 | 1 | 1 | 2016-02-18 | Martha |
 | 1 | 1 | 2016-02-18 | Martha |
 | 1 | 2 | 2016-02-18 | Nmuta |
