@@ -59,8 +59,8 @@ Create queries for each of the questions listed below and put them in `queries.s
 | id | dog_id | date | groomer_name |
 | --- | --- | --- | --- |
 | 1 | 1 | 2016-02-18 | Martha |
-| 1 | 1 | 2016-02-18 | Martha |
-| 1 | 2 | 2016-02-18 | Nmuta |
-| 1 | 3 | 2016-02-18 | Brooks |
-| 1 | 3 | 2016-02-18 | Aanal |
-| 1 | 4 | 2016-02-18 | Martha |
+| 1 | 1 | 2016-03-18 | Martha |
+| 1 | 2 | 2016-03-19 | Nmuta |
+| 1 | 3 | 2016-03-24 | Brooks |
+| 1 | 3 | 2016-03-26 | Aanal |
+| 1 | 4 | 2016-03-30 | Martha |
