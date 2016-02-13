@@ -56,11 +56,51 @@ Create queries for each of the questions listed below and put them in `queries.s
 | 7 | 5 | 5 |
 
 ### Appointment
-| id | dog_id | date | groomer_name |
+| id | dog_id | appointment_date | groomer_name |
 | --- | --- | --- | --- |
 | 1 | 1 | 2016-02-18 | Martha |
-| 1 | 1 | 2016-03-18 | Martha |
-| 1 | 2 | 2016-03-19 | Nmuta |
-| 1 | 3 | 2016-03-24 | Brooks |
-| 1 | 3 | 2016-03-26 | Aanal |
-| 1 | 4 | 2016-03-30 | Martha |
+| 2 | 1 | 2016-03-18 | Martha |
+| 3 | 2 | 2016-03-19 | Nmuta |
+| 4 | 3 | 2016-03-24 | Brooks |
+| 5 | 3 | 2016-03-26 | Aanal |
+| 6 | 4 | 2016-03-30 | Martha |
+
+## Output
+
+You can create this database locally by running `test_database.sql`. Your output from running `queries.sql` against it should look like this:
+
+```
+ first_name | last_name | appointment_date 
+------------+-----------+------------------
+ Kyle       | Coberly   | 2016-02-18
+ Kyle       | Coberly   | 2016-03-18
+(2 rows)
+
+   name   |         name         
+----------+----------------------
+ Bixby    | Chow Chow
+ Bixby    | German Shepherd
+ Mesa     | Jack Russell Terrier
+ Trixy    | Chow Chow
+ Penelope | German Shepherd
+ Iago     | Black Lab
+ Iago     | Cat
+(7 rows)
+
+   name   | appointment_date 
+----------+------------------
+ Bixby    | 2016-02-18
+ Bixby    | 2016-03-18
+ Mesa     | 2016-03-19
+ Trixy    | 2016-03-24
+ Trixy    | 2016-03-26
+ Penelope | 2016-03-30
+ Iago     | [NULL]
+(7 rows)
+
+      name       
+-----------------
+ Chow Chow
+ German Shepherd
+(2 rows)
+```
